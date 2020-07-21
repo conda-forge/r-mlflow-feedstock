@@ -1,4 +1,4 @@
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlflow_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlflow/mlflow_{{ version }}.tar.gz
-  sha256: 150b79da1de7f5bc2a91019cf181e09649a50f4ccf9c426fd93626ccfe7286d0
+  sha256: b51479242138763c9511e3f7525ba4ed5148a9f8bef9edddc3cca2fd729c0c09
 
 build:
   merge_build_host: true  # [win]
@@ -78,7 +78,7 @@ test:
 
 about:
   home: https://github.com/mlflow/mlflow
-  license: Apache 2.0
+  license: Apache-2.0
   summary: R interface to 'MLflow', open source platform for the complete machine learning life cycle, see <https://mlflow.org/>. This package supports installing 'MLflow', tracking experiments, creating and running projects, and saving and serving models.
   license_family: APACHE
   license_file: LICENSE.txt
