@@ -1,11 +1,11 @@
-About r-mlflow
-==============
+About r-mlflow-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlflow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mlflow/mlflow
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlflow-feedstock/blob/main/LICENSE.txt)
 
 Summary: R interface to 'MLflow', open source platform for the complete machine learning life cycle, see <https://mlflow.org/>. This package supports installing 'MLflow', tracking experiments, creating and running projects, and saving and serving models.
 
