@@ -1,4 +1,4 @@
-{% set version = "2.4.1" %}
+{% set version = "2.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlflow_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlflow/mlflow_{{ version }}.tar.gz
-  sha256: 290fdea79b8de3dbab4f9a2c1d39a45481291b3a0157e00be50cb34ba4afcbb7
+  sha256: 2f1e28faeea3512f94ed2cfa5a069ef085d24499b27294ef0cc417d1b93155fe
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
