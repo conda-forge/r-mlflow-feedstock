@@ -1,6 +1,5 @@
 {% set version = "2.16.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mlflow
@@ -13,8 +12,7 @@ source:
   sha256: 8ae11cfe325a9d93ffd00bd40d708eff6d8336d2f5405929738c81bb9bd61e57
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
