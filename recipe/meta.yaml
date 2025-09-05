@@ -1,4 +1,4 @@
-{% set version = "3.2.0" %}
+{% set version = "3.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlflow_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlflow/mlflow_{{ version }}.tar.gz
-  sha256: 9cf7f22c21a806895a96e70b0bda9f9cc3b415e0b70cdca5937f14ed4d1f3e12
+  sha256: 1280c48f25b0ef8748245aebe19180d1e157465ac3856b0e0f99076a4c793030
 
 build:
   number: 0
