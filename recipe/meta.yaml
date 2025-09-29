@@ -24,7 +24,6 @@ requirements:
   host:
     - r-base
     - r-base64enc
-    - r-forge
     - r-fs
     - r-git2r
     - r-glue
@@ -35,18 +34,15 @@ requirements:
     - r-openssl
     - r-processx
     - r-purrr
-    - r-reticulate
     - r-rlang >=0.2.0
     - r-swagger
     - r-tibble >=2.0.0
     - r-withr
-    - r-xml2
     - r-yaml
     - r-zeallot
   run:
     - r-base
     - r-base64enc
-    - r-forge
     - r-fs
     - r-git2r
     - r-glue
@@ -57,12 +53,10 @@ requirements:
     - r-openssl
     - r-processx
     - r-purrr
-    - r-reticulate
     - r-rlang >=0.2.0
     - r-swagger
     - r-tibble >=2.0.0
     - r-withr
-    - r-xml2
     - r-yaml
     - r-zeallot
   run_constrained:
